@@ -20,7 +20,7 @@ footer {
 }
 
 main {
-    font-size: 4em;
+    font-size: 2em;
     text-align: left;
 
     color: darkgrey;
@@ -31,9 +31,14 @@ main>a {
     color: darkgrey;
 }
 
-footer>a {
-    font-size: 4em;
+footer > a {
+    font-size: 1.5em;
     color: darkgrey;
+}
+
+footer > li {
+    font-size: 1.5em;
+    padding-bottom: 10px;
 }
 
 body {
@@ -73,12 +78,6 @@ body::before {
     pointer-events: none;
 
     height: 100%;
-}
-
-
-footer>li {
-    font-size: 2em;
-    padding-bottom: 10px;
 }
 
 @keyframes flicker {
