@@ -44,7 +44,7 @@ footer>li {
 body {
     image-rendering: pixelated;
 
-    background-color: #000;
+    background-color: #0d0d0d;
 
     animation: textShadow 1.6s infinite;
 }
