@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>Jett Bradford</title>
 
         <link rel="stylesheet" type="text/css" href="static/main.css">
@@ -8,74 +9,140 @@
     </head>
     <body>
         <main>
-            <div style="display: flex; justify-content: flex-start;">
+            <div class="bio">
                 <img src="./static/me.png" alt="Jett Bradford" class="profile-image">
-            
-                <p> 
-                    
-                    Hello! I'm <b>Jett Bradford</b>, a Software Engineer based in <a href="https://www.google.com/maps/place/devon+england">Devon, England</a>
+
+                <p>
+                    Hello! I'm <b>Jett Bradford</b>, a <b>Digital Innovation Engineer</b> based in <a href="https://www.google.com/maps/place/devon+england">Devon, England</a>.
                     <br />
-                    Currently, I work for the <a href="https://immersive.tsdft.uk/">Torbay Digital Futures Team</a> at the <a href="https://www.nhs.uk/">NHS as an Embedded and Machine Learning Engineer.</a>
+                    I build machine learning systems and FHIR-integrated solutions at the <a href="https://www.torbayandsouthdevon.nhs.uk/">Torbay &amp; South Devon NHS Foundation Trust</a>, and work as a Data Analyst at the <a href="https://www.plymouth.ac.uk/">University of Plymouth</a>. I'm also registered as a <a href="https://www.bcs.org/">MBCS</a> and <a href="https://www.fedip.org/">AFEDIP</a>.
                 </p>
             </div>
-            
-            <p>I've been programming basically since I've had access to a computer, I love what I do. If you have a project that you think I would be able to help you tackle, please reach out to me, my <a>contacts</a> are at the bottom of the page (or you can send me an <a href="mailto:mrjettbradford@gmail.com">Email</a>).</p>
-            
+
+            <p>From clinical machine learning to indie game products, I work across a variety of disciplines and industries. If you have a project you think I could help with, my <a href="#footer">contacts</a> are at the bottom of the page (or send me an <a href="mailto:mrjettbradford@gmail.com">email</a>).</p>
+
+            <hr class="section-divider">
+
+            <h2>Work</h2>
+
+            <div class="work-section">
+                <h3>Torbay &amp; South Devon NHS Foundation Trust<p>Digital Innovation Engineer</p></h3>
+                <div class="projects-container">
+                    <div class="card" data-modal="modal-carelink" data-link="https://df-lab.org/article/16">
+                        <img src="./static/carelink.gif" alt="CareLink" class="card-image">
+                        <div class="card-content">
+                            <h2 class="card-title">CareLink</h2>
+                            <p class="card-description">An end-to-end system integrating NHS care between community and hospital.</p>
+                        </div>
+                    </div>
+
+                    <div class="card" data-modal="modal-wheelchair" data-link="https://df-lab.org/article/2">
+                        <img src="./static/wheelchair.gif" alt="Eye-Tracking Wheelchair Demo" class="card-image">
+                        <div class="card-content">
+                            <h2 class="card-title">Eye-Tracking Wheelchair</h2>
+                            <p class="card-description">A wheelchair controlled by eye tracking, built for people with motor neurone disease.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="work-section">
+                <h3>Giant Enemy Crab <p>Studio Lead</p></h3>
+                <div class="projects-container">
+
+                    <div class="card double" data-modal="modal-dueprocess" data-link="https://dueprocess.info/">
+                        <img src="./static/dueprocess.gif" alt="Due Process" class="card-image">
+                        <div class="card-content">
+                            <h2 class="card-title">Due Process</h2>
+                            <p class="card-description">An indie game I led the software development of, shipping a quarter million game copies..</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="section-divider">
+
             <h2>Projects</h2>
             <div class="projects-container">
 
-                
-                <a href="https://immersive.tsdft.uk/" class="card">
-                    <img src="./static/carelink.gif" alt="Task Manager" class="card-image">
-                    <div class="card-content">
-                        <h2 class="card-title">CareLink</h2>
-                        <p class="card-description">A end-to-end system for integrating NHS care between the community and the hospital improving care and expenditure.</p>
-                    </div>
-                </a>
-                <a href="https://immersive.tsdft.uk/2024/05/eye-tracking-wheelchair/" class="card">
-                    <img src="./static/wheelchair.gif" alt="Eye-Tracking Wheelchair Demo" class="card-image">
-                    <div class="card-content">
-                        <h2 class="card-title">Eye-Tracking Wheelchair</h2>
-                        <p class="card-description">A wheelchair I built that uses Eye tracking to aid people with motor neurone disease in order to give them the freedom of mobility for longer.</p>
-                    </div>
-                </a>
-                <a href="https://dueprocess.info/" class="card">
-                    <img src="./static/dueprocess.gif" alt="Due Process" class="card-image">
-                    <div class="card-content">
-                        <h2 class="card-title">Due Process</h2>
-                        <p class="card-description">A game I am endlessly passionate I have been lucky enough to lead the software development of since late 2024.</p>
-                    </div>
-                </a>
-                <a href="https://darkflameuniverse.org" class="card">
+                <div class="card" data-modal="modal-darkflame" data-link="https://darkflameuniverse.org">
                     <img src="./static/legouniverse.gif" alt="LEGO Universe Trailer" class="card-image">
                     <div class="card-content">
                         <h2 class="card-title">Darkflame Universe</h2>
-                        <p class="card-description">A revival project of a defunct LEGO game that I have been contributing my engineer skills to since I was a child.</p>
+                        <p class="card-description">A revival of a defunct LEGO MMO I've contributed to since childhood.</p>
                     </div>
-                </a>
-                <a href="https://www.tqacademy.co.uk/Greenpower-Motorsport/" class="card">
+                </div>
+
+                <div class="card" data-modal="modal-greenpower" data-link="https://www.tqacademy.co.uk/Greenpower-Motorsport/">
                     <img src="./static/greenpower.gif" alt="Greenpower Motorsport Race" class="card-image">
                     <div class="card-content">
                         <h2 class="card-title">Team TA Greenpower</h2>
-                        <p class="card-description">While completing my GCSEs I had the pleasure of taking part in the Greenpower F24 championship as a telemetry engineer.</p>
+                        <p class="card-description">Competing in the Greenpower F24 championship as a telemetry engineer during my GCSEs.</p>
                     </div>
-                </a>
+                </div>
+
             </div>
         </main>
 
-        
+        <!-- Modal -->
+        <div id="modal-backdrop" class="modal-backdrop">
+            <div class="modal" role="dialog" aria-modal="true">
+                <button class="modal-close" aria-label="Close">&times;</button>
+                <div class="modal-body">
+                    <img class="modal-image" src="" alt="">
+                    <div class="modal-text">
+                        <h2 class="modal-title"></h2>
+                        <div class="modal-description"></div>
+                        <a class="modal-link" href="" target="_blank" rel="noopener">Visit Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <footer>
-            <h1>Links & Contact</h1>
+        <!-- Per-project long descriptions -->
+        <template id="modal-carelink">
+            <p>Hospital discharge has long interrupted vital-sign monitoring, leaving a blind spot between the ward and the community that delays interventions and drives readmissions. CareLink closes that gap with a remote monitoring platform built around clinical-grade devices - blood pressure, pulse oximetry, thermometry, weight and a smart watch - paired over Bluetooth to a cellular hub that streams readings directly into the Trust's Epic EHR. No home WiFi, no app setup, no technical literacy required from the patient.</p>
+            <p>I led the architecture and engineering of the system within the EPIC (FHIR R4) ecosystem, including a "scan and go" wristband flow that auto-links equipment to the right patient, and a clinician dashboard that computes NEWS2 scores, surfaces trend analysis and raises automated alerts. The kits are reusable at around &pound;200 a unit with sub-6p daily data costs, making the model scalable from acute discharge into care homes.</p>
+        </template>
 
-            <li><a href="/static/resume.pdf">Resume</a></li>
-            <li><a href="https://github.com/Jettford/jettford.github.io">Source Code</a></li>
-        
+        <template id="modal-wheelchair">
+            <p>For people living with motor neurone disease and other severe motor impairments, losing the ability to control a wheelchair often means losing the last meaningful piece of physical independence. This project gives that control back through eye movement alone - no head motion, no switches, no carer input.</p>
+            <p>The system pairs an eye-tracking mixed-reality headset with a custom receiver unit, overlaying virtual control buttons on the user's real-world view. The same input layer drives a powered wheelchair, remote-control vehicles, model train sets and other household electronics, and supports eye-gaze communication using the patient's own voice where pre-banked recordings exist. The work was recognised with the SWPCA 2025 award for Choice and Control for its application of technology to accessibility and independence.</p>
+        </template>
+
+        <template id="modal-dueprocess">
+            <p>Due Process is a tactical multiplayer shooter built around a planning phase: before each round, teams of attackers map out an entry plan over a top-down blueprint of a procedurally arranged building, then execute it under live fire. It's published by Annapurna Interactive and developed at Giant Enemy Crab, the indie studio I ran as Studio Lead after the community took over the studio.</p>
+            <p>I oversaw the studio's operation and technical direction across development, production and delivery, contributing hands-on in C# and Unity alongside the leadership work. During my tenure the game shipped over quarter of a million copies in a single calendar year.</p>
+        </template>
+
+        <template id="modal-darkflame">
+            <p>LEGO Universe was a LEGO-themed MMO that shut down in 2012, taking a lot of childhood memories with it. Darkflame Universe is the community-driven effort to bring it back - a server reimplementation that lets people host the game privately for friends and family.</p>
+            <p>The project began in 2013 and, after legal pressure in 2021, the team released the server software as open source under AGPL-3.0 so the game could continue to live on through self-hosting rather than any single public server. I've contributed to the project on and off since childhood; it's the work that first taught me what reverse engineering, networking and large-scale game systems actually look like under the hood.</p>
+        </template>
+
+        <template id="modal-greenpower">
+            <p>Greenpower F24 is a national championship in which school teams design, build and race their own single-seater electric cars at venues including Goodwood, Silverstone, Castle Combe and Dunsfold. I joined Torquay Academy's team during my GCSEs with the unique skill of software engineering (for Year 8 students).</p>
+            <p>My role was to instrument the car and turn race-day data into decisions the driver and pit crew could actually use - lap pacing, battery draw, motor and component temperatures - so we could squeeze the most distance out of a fixed energy budget rather than burning it on the first few laps. It was my first real exposure to engineering under competitive constraints, and a lot of the instincts I still use around instrumentation and data-driven iteration started there.</p>
+        </template>
+
+        <footer id="footer">
+            <h1>Links &amp; Contact</h1>
+
+            <ul>
+                <li><a href="/static/resume.pdf">Resume</a></li>
+                <li><a href="https://github.com/Jettford/jettford.github.io">Source Code</a></li>
+            </ul>
+
             <br /> <br />
 
             <a href="https://www.linkedin.com/in/jettford/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/Jettford"><i class="fa-brands fa-github-alt"></i></a>
             <a href="https://twitter.com/JettfordDev"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://orcid.org/0009-0003-2637-8546"><i class="fa-brands fa-orcid"></i></a>
         </footer>
+
+        <script src="static/index.js"></script>
     </body>
 </html>
